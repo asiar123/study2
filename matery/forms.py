@@ -32,6 +32,7 @@ class FormMatery(forms.ModelForm):
 		]
 		labels = {
 			'user': 'Seleccione su usuario',
+			'user': forms.Select(attrs={'class':'form-control'}),
 			'Nombre': 'Nombre de la materia',
 			'Matematicas1': '¿Que son los números naturales?',
 			'Matematicas2': '¿Que son los números enteros?',
